@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.up-top{
+  background-color: aquamarine;
+  width: 100vw;
+  display: flex;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#logo{
+  width: 10rem;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  height: 5vh;
+  width: 100vw;
+  background-color: brown;
+}

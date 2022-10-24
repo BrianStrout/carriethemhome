@@ -1,9 +1,11 @@
 import React from 'react'
 import {Link, outlet} from 'react-router-dom'
+import Logo from '../images/carrie_logo.png'
+import '../index.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='up-top'>
     <nav className='navbar'>
         <Link to='/'> Home</Link>
         <Link to='/mission'> Mission</Link>
@@ -12,7 +14,8 @@ const Navbar = () => {
         <Link to='/about'> About</Link>
         <Link to='/contact'> Contact</Link>
     </nav>
-    <p>hi</p>
+    <img src={Logo} id="logo" alt=""/>
+  
     <outlet />
     </div>
   )

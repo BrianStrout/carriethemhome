@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './index.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Home from './components/home'
@@ -8,6 +8,7 @@ import Resources from './components/resources'
 import Gallery from './components/gallery'
 import About from './components/about'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 
 </Routes>
 
-    
+    <Footer />
       </Router>
     </div>
   );
